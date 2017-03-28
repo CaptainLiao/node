@@ -3,12 +3,13 @@
 #### 3月28更新：
 
 在实现完功能后，我考虑将它做成一个可供任意项目调用的模块，简化其使用方法，预想的调用方式为：
+
     start.js
     ````
         const webProxy = require('./webProxy').webProxy
         webProxy(targetUrl, localPort)
+    ````  
 
-    ````
 在CMD中切换到文件所在地址，键入：`node start.js`开启服务
 
 下载地址：[这里](https://github.com/CaptainLiao/node)
